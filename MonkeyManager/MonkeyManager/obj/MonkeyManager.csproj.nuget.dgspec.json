@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\seth.pattee\\Source\\Repos\\MonkeyManager\\MonkeyManager\\MonkeyManager\\MonkeyManager.csproj": {}
+    "C:\\Users\\setpa\\Source\\Repos\\MonkeyManager\\MonkeyManager\\MonkeyManager\\MonkeyManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\seth.pattee\\Source\\Repos\\MonkeyManager\\MonkeyManager\\MonkeyManager\\MonkeyManager.csproj": {
+    "C:\\Users\\setpa\\Source\\Repos\\MonkeyManager\\MonkeyManager\\MonkeyManager\\MonkeyManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\seth.pattee\\Source\\Repos\\MonkeyManager\\MonkeyManager\\MonkeyManager\\MonkeyManager.csproj",
+        "projectUniqueName": "C:\\Users\\setpa\\Source\\Repos\\MonkeyManager\\MonkeyManager\\MonkeyManager\\MonkeyManager.csproj",
         "projectName": "MonkeyManager",
-        "projectPath": "C:\\Users\\seth.pattee\\Source\\Repos\\MonkeyManager\\MonkeyManager\\MonkeyManager\\MonkeyManager.csproj",
-        "packagesPath": "C:\\Users\\seth.pattee\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\seth.pattee\\Source\\Repos\\MonkeyManager\\MonkeyManager\\MonkeyManager\\obj\\",
+        "projectPath": "C:\\Users\\setpa\\Source\\Repos\\MonkeyManager\\MonkeyManager\\MonkeyManager\\MonkeyManager.csproj",
+        "packagesPath": "C:\\Users\\setpa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\setpa\\Source\\Repos\\MonkeyManager\\MonkeyManager\\MonkeyManager\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\seth.pattee\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\setpa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
