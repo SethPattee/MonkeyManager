@@ -1,5 +1,6 @@
- using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using MonkeyManager.Data;
+using MonkeyManager.Shared;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +9,8 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddDbContextFactory<EmployeeManagerDbContext>(
     opt => opt.UseSqlServer(
-        builder.Configuration.GetConnectionString("EmployeeManagerDb"))); 
+        builder.Configuration.GetConnectionString("EmployeeManagerDb")));
+builder.Services.AddScoped<StateContainer>();
 
 var app = builder.Build();
 //Dont do this in production, just useful for Development
@@ -18,7 +20,7 @@ async Task EnsureDatabaseIsMigrated(IServiceProvider services)
 {
     using var scope = services.CreateScope();
     var ctx = scope.ServiceProvider.GetService<EmployeeManagerDbContext>();
-    if(ctx is not null)
+    if (ctx is not null)
     {
         await ctx.Database.MigrateAsync();
     }
