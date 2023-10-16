@@ -361,3 +361,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/MonkeyManager/MonkeyManager/obj/Debug/net7.0/MonkeyManager.assets.cache
+/MonkeyManager/MonkeyManager/obj/Debug/net7.0/MonkeyManager.GeneratedMSBuildEditorConfig.editorconfig
+/MonkeyManager/MonkeyManager/obj/Debug/net7.0/project.razor.vs.json
+/MonkeyManager/MonkeyManager/obj/project.assets.json
+/MonkeyManager/MonkeyManager/obj/MonkeyManager.csproj.nuget.dgspec.json
+/MonkeyManager/MonkeyManager/obj/project.nuget.cache
