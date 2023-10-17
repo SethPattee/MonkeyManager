@@ -20,6 +20,9 @@ namespace MonkeyManager.Data.Models
         public int? DepartmentId { get; set; }
 
         public Department? Department { get; set; }
+
+        [Timestamp]
+        public byte[]? TimeStamp { get; set; }
     }
 
 }
